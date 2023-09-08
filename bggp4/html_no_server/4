@@ -1,1 +1,1 @@
-<body id="b" onload="t=b.outerHTML;b.innerHTML=`<a id=a download=4>4`;a.click(a.href='data:,'+t);"></body>
+<a id="a" download="4">4<script>a.click(a.href='data:,'+a.outerHTML)</script></a>
