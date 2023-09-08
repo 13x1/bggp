@@ -1,1 +1,1 @@
-require('fs').copyFile(__filename,"4",_=>console.log(4))
+require('fs').copyFile(__filename,"4",_=>$4)
