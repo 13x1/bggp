@@ -13,8 +13,9 @@ for dir in */; do
     echo "SHA mismatch"
     exit 1
   fi
+  BYTES=$(wc -c < $FOUR) # sloppy hack, only works for ascii but eh they're all ascii
   # b64 encode. Remove newlines and escape slashes
-  BASE64=$(base64 $FOUR | sed -e 's/\//\\\\\\\//g' | tr -d '\n')
-  # Substitute %HASH% and %B64% in template and concat to out
-  sed -e "s/%HASH%/$SHA_SOURCE/g" -e "s/%B64%/$BASE64/g" $TEMPLATE >> $OUT
+  BASE64=$(base64 $FOUR | sed -e 's/\//\\\//g' | tr -d '\n')
+  # Substitute %HASH% and %B64% in template, add size after "info?: " and concat to out
+  sed -e "s/%HASH%/$SHA_SOURCE/g" -e "s/%B64%/$BASE64/g" -e "s/info?: /info?: $BYTES bytes. /g" $TEMPLATE >> $OUT
 done
