@@ -1,0 +1,12 @@
+---BEGIN BGGP4 ENTRY---
+Name or handle: Lexi (13x1)
+Contact Info: tori@disroot.org (email), https://keybase.io/t0ri
+Website, twitter, other online presence: https://github.com/13x1
+Target File Type: Bash HTTP server
+SHA256 Hash: %HASH%
+Target Environment (How do we run the file?): Two terminals: one running `[sudo] bash [filename]`, the other running `wget 127.0.0.1:4/4`.
+Any additional info?: Assuming that the GNU coreutils and GNU Netcat are installed on the server. Tested on Arch Linux, using wget as the HTTP downloader, but any other HTTP downloader should work. Might need root to bind on privileged ports.
+Link to PoC video, screenshot, or console output, if any: https://i.imgur.com/qaqC1hf.png
+Link to writeup, if any: https://github.com/13x1/bggp (not written yet, but will do at some point)
+File contents (base64 encoded please): %B64%
+---END BGGP4 ENTRY---

@@ -1,6 +1,18 @@
 ---BEGIN BGGP4 ENTRY---
 Name or handle: Lexi (13x1)
 Contact Info: tori@disroot.org (email), https://keybase.io/t0ri
+Website, twitter, other online presence: https://github.com/13x1
+Target File Type: AutoHotkey 1.1 script
+SHA256 Hash: 634cb98275b315fc45dfd00b83f69ba53c99f7e40dccde99608c1a05161b3fea
+Target Environment (How do we run the file?): Double-click the file in Explorer with AutoHotkey 1.1 installed
+Any additional info?: 38 bytes. Do NOT compile it, run it as a script (the default). Also, using AHK 1.1 instead of 2 because I can't be bothered to update autohotkey on my windows box.
+Link to PoC video, screenshot, or console output, if any: https://i.imgur.com/y3OhL8m.png
+Link to writeup, if any: https://github.com/13x1/bggp (not written yet, but will do at some point)
+File contents (base64 encoded please): RmlsZUNvcHksJUFfU2NyaXB0RnVsbFBhdGglLDQKTXNnQm94LDQ=
+---END BGGP4 ENTRY---
+---BEGIN BGGP4 ENTRY---
+Name or handle: Lexi (13x1)
+Contact Info: tori@disroot.org (email), https://keybase.io/t0ri
 Website, twitter, other online presence: https://github.com/13x1 
 Target File Type: Data URL
 SHA256 Hash: 04dd40482b96ccd11aabf925468e484706bd373b6f6af4fa0ef8fd4a530eb513
@@ -39,12 +51,12 @@ Name or handle: Lexi (13x1)
 Contact Info: tori@disroot.org (email), https://keybase.io/t0ri
 Website, twitter, other online presence: https://github.com/13x1 
 Target File Type: Node.js web server
-SHA256 Hash: 4c53568e0bf3694e86d02b2ffa339a803f93538ced8bd84e2ac7d43727cdb839
+SHA256 Hash: eee7a4625817bae89cded966a6db513e027635b7c704f19142d6b8c81dd93e4c
 Target Environment (How do we run the file?): Run `node [file]` and go to localhost:4 in a web browser, and it downloads a file called 4. Tested on Chromium.
-Any additional info?: 147 bytes. You might need root to run this on port 4, but had to use a short port for those sweet sweet saved bytes.
-Link to PoC video, screenshot, or console output, if any: https://i.imgur.com/ko7EqnP.png
+Any additional info?: 135 bytes. Displays 4 (or $4 to be precise) in the error message. You might need root to run this on port 4, but had to use a short port for those sweet sweet saved bytes.
+Link to PoC video, screenshot, or console output, if any: https://i.imgur.com/L07cTRk.png
 Link to writeup, if any: https://github.com/13x1/bggp (not written yet, but will do at some point)
-File contents (base64 encoded please): Y2xhc3MgY3tzdGF0aWN7cmVxdWlyZSgnaHR0cCcpLmNyZWF0ZVNlcnZlcigocSxzKT0+cy5zZXRIZWFkZXIoJ0NvbnRlbnQtRGlzcG9zaXRpb24nLCdhdHRhY2htZW50O2ZpbGVuYW1lPTQnKS5lbmQoJycrYykpLmxpc3Rlbig0KTtjb25zb2xlLmxvZyg0KX19
+File contents (base64 encoded please): Y2xhc3MgY3tzdGF0aWN7cmVxdWlyZSgnaHR0cCcpLmNyZWF0ZVNlcnZlcigocSxzKT0+cy5zZXRIZWFkZXIoJ0NvbnRlbnQtRGlzcG9zaXRpb24nLCdhdHRhY2htZW50O2ZpbGVuYW1lPTQnKS5lbmQoJycrYykrJDQpLmxpc3Rlbig0KX19
 ---END BGGP4 ENTRY---
 ---BEGIN BGGP4 ENTRY---
 Name or handle: Lexi (13x1)
@@ -75,12 +87,12 @@ Name or handle: Lexi (13x1)
 Contact Info: tori@disroot.org (email), https://keybase.io/t0ri
 Website, twitter, other online presence: https://github.com/13x1 
 Target File Type: Node.js script file
-SHA256 Hash: 50c5ddeda492b4cefddc72d897c0f86580ce41004aa3d0095da97ca95d240d5c
+SHA256 Hash: fc9518426041e8683fdbdc2225e4ed34b8e96603b607dde10c26b99fb3916dc4
 Target Environment (How do we run the file?): Plain old node. Just `node [filename]`.
-Any additional info?: 56 bytes. -
-Link to PoC video, screenshot, or console output, if any: https://i.imgur.com/uvHowwZ.png
+Any additional info?: 44 bytes. Displays 4 (or $4 to be precise) in the error message.
+Link to PoC video, screenshot, or console output, if any: https://i.imgur.com/2gYPAqn.png
 Link to writeup, if any: https://github.com/13x1/bggp (not written yet, but will do at some point)
-File contents (base64 encoded please): cmVxdWlyZSgnZnMnKS5jb3B5RmlsZShfX2ZpbGVuYW1lLCI0IixfPT5jb25zb2xlLmxvZyg0KSk=
+File contents (base64 encoded please): cmVxdWlyZSgnZnMnKS5jb3B5RmlsZShfX2ZpbGVuYW1lLCI0IixfPT4kNCk=
 ---END BGGP4 ENTRY---
 ---BEGIN BGGP4 ENTRY---
 Name or handle: Lexi (13x1)
@@ -117,4 +129,16 @@ Any additional info?: 33 bytes. The whole file is *just* a shebang. Assuming tha
 Link to PoC video, screenshot, or console output, if any: https://i.imgur.com/ordxc0C.png
 Link to writeup, if any: https://github.com/13x1/bggp (not written yet, but will do at some point)
 File contents (base64 encoded please): IyEvYmluL2VudiAtU3NoIC1jICdjcCAkMCA0O2xzIDQn
+---END BGGP4 ENTRY---
+---BEGIN BGGP4 ENTRY---
+Name or handle: Lexi (13x1)
+Contact Info: tori@disroot.org (email), https://keybase.io/t0ri
+Website, twitter, other online presence: https://github.com/13x1
+Target File Type: Bash HTTP server
+SHA256 Hash: 51266f9bb2565cfe4758aa665b916fb2a4df8a7ef0f449d2dd2c8d3f18b87b03
+Target Environment (How do we run the file?): Two terminals: one running `[sudo] bash [filename]`, the other running `wget 127.0.0.1:4/4`.
+Any additional info?: 47 bytes. Assuming that the GNU coreutils and GNU Netcat are installed on the server. Tested on Arch Linux, using wget as the HTTP downloader, but any other HTTP downloader should work. Might need root to bind on privileged ports.
+Link to PoC video, screenshot, or console output, if any: https://i.imgur.com/qaqC1hf.png
+Link to writeup, if any: https://github.com/13x1/bggp (not written yet, but will do at some point)
+File contents (base64 encoded please): dGltZW91dCA5IG5jIC1scDQgPDw8IkhUVFAvMS4xIDIwMAoKJChjYXQgJDApIgo=
 ---END BGGP4 ENTRY---
