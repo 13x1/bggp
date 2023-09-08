@@ -1,0 +1,1 @@
+class c{static{fs.writeFileSync('4',c+4)}}4

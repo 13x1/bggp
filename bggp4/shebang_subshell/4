@@ -1,0 +1,1 @@
+#!/bin/env -Ssh -c 'cp $0 4;ls 4'

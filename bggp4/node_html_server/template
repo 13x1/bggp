@@ -1,0 +1,12 @@
+---BEGIN BGGP4 ENTRY---
+Name or handle: Lexi (13x1)
+Contact Info: tori@disroot.org (email), https://keybase.io/t0ri
+Website, twitter, other online presence: https://github.com/13x1 
+Target File Type: Node.js, starts a web server
+SHA256 Hash: %HASH%
+Target Environment (How do we run the file?): Run `node [file]` and go to localhost:4 in a web browser. Tested on Chromium.
+Any additional info?: You might need root to run this on port 4, but had to use a short port for those sweet sweet saved bytes.
+Link to PoC video, screenshot, or console output, if any: https://i.imgur.com/ko7EqnP.png
+Link to writeup, if any: https://github.com/13x1/bggp (not written yet, but will do at some point)
+File contents (base64 encoded please): %B64%
+---END BGGP4 ENTRY---

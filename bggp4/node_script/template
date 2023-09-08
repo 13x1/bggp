@@ -1,0 +1,12 @@
+---BEGIN BGGP4 ENTRY---
+Name or handle: Lexi (13x1)
+Contact Info: tori@disroot.org (email), https://keybase.io/t0ri
+Website, twitter, other online presence: https://github.com/13x1 
+Target File Type: Node.js script file
+SHA256 Hash: %HASH%
+Target Environment (How do we run the file?): Plain old node. Just `node [filename]`.
+Any additional info?: -
+Link to PoC video, screenshot, or console output, if any: https://i.imgur.com/uvHowwZ.png
+Link to writeup, if any: https://github.com/13x1/bggp (not written yet, but will do at some point)
+File contents (base64 encoded please): %B64%
+---END BGGP4 ENTRY---

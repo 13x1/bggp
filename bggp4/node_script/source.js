@@ -1,0 +1,1 @@
+require('fs').copyFile(__filename,"4",_=>console.log(4))
