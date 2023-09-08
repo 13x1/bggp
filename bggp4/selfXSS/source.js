@@ -1,1 +1,1 @@
-javascript:class x{static{document.body.innerHTML=`<a id=a download=4>4`;a.click(a.href="data:,javascript:"+x)}}
+javascript:class x{static{document.write`<a id=a download=4>4`;a.click(a.href="data:,javascript:"+x)}}
