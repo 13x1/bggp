@@ -6,7 +6,7 @@ Target File Type: SelfXSS (javascript: URL)
 SHA256 Hash: %HASH%
 Target Environment (How do we run the file?): This one is a bit more complicated, because browsers have a selfXSS protection. You have to paste the URL, but it will delete the text "javascript:". You have to *manually type* that on the beginning of the URL and inside the btoa() call so it matches with the source again. Then just hit enter and enjoy the show. Also, you need to be on a website that doesn't block javascript: URLs via CSP, so I recommend running this on https://example.com/.
 Any additional info?: Some browsers enforce a file ending in the file picker, but the actual name (as you can see in the screenshot) is 4.
-Link to PoC video, screenshot, or console output, if any: https://i.imgur.com/4gmE09g.png
+Link to PoC video, screenshot, or console output, if any: https://i.imgur.com/YzqzkDt.png
 Link to writeup, if any: https://github.com/13x1/bggp (not written yet, but will do at some point)
 File contents (base64 encoded please): %B64%
 ---END BGGP4 ENTRY---

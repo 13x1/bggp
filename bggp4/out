@@ -25,10 +25,22 @@ File contents (base64 encoded please): PGJvZHkgb25sb2FkPWEuY2xpY2soKT48YSBocmVmP
 ---BEGIN BGGP4 ENTRY---
 Name or handle: Lexi (13x1)
 Contact Info: tori@disroot.org (email), https://keybase.io/t0ri
+Website, twitter, other online presence: https://github.com/13x1
+Target File Type: HTML file (doesn't have to be served, file:// will work)
+SHA256 Hash: 041b4570e76d0a9f6deb276273ea82da33d323681ac4766cca8e5a16a6c0e27e
+Target Environment (How do we run the file?): Does not need to run on a web server. file:// will work.
+Any additional info?: Some browsers enforce a file ending in the file picker, but the actual name (as you can see in the screenshot) is 4.
+Link to PoC video, screenshot, or console output, if any: https://i.imgur.com/R5XhAEw.png
+Link to writeup, if any: https://github.com/13x1/bggp (not written yet, but will do at some point)
+File contents (base64 encoded please): PGJvZHkgaWQ9ImIiIG9ubG9hZD0idD1iLm91dGVySFRNTDtiLmlubmVySFRNTD1gPGEgaWQ9YSBkb3dubG9hZD00PjRgO2EuY2xpY2soYS5ocmVmPSdkYXRhOiwnK3QpOyI+PC9ib2R5Pg==
+---END BGGP4 ENTRY---
+---BEGIN BGGP4 ENTRY---
+Name or handle: Lexi (13x1)
+Contact Info: tori@disroot.org (email), https://keybase.io/t0ri
 Website, twitter, other online presence: https://github.com/13x1 
-Target File Type: Node.js, starts a web server
+Target File Type: Node.js web server
 SHA256 Hash: 4c53568e0bf3694e86d02b2ffa339a803f93538ced8bd84e2ac7d43727cdb839
-Target Environment (How do we run the file?): Run `node [file]` and go to localhost:4 in a web browser. Tested on Chromium.
+Target Environment (How do we run the file?): Run `node [file]` and go to localhost:4 in a web browser, and it downloads a file called 4. Tested on Chromium.
 Any additional info?: You might need root to run this on port 4, but had to use a short port for those sweet sweet saved bytes.
 Link to PoC video, screenshot, or console output, if any: https://i.imgur.com/ko7EqnP.png
 Link to writeup, if any: https://github.com/13x1/bggp (not written yet, but will do at some point)
@@ -75,12 +87,12 @@ Name or handle: Lexi (13x1)
 Contact Info: tori@disroot.org (email), https://keybase.io/t0ri
 Website, twitter, other online presence: https://github.com/13x1 
 Target File Type: SelfXSS (javascript: URL)
-SHA256 Hash: e20316a8d12516b70c29be1c22bd54d615ce52694c069088f428066d3c9dc54c
+SHA256 Hash: d014b70d78a86f7effed5255453513ed046350324b1b74adda4c7f51d52152ac
 Target Environment (How do we run the file?): This one is a bit more complicated, because browsers have a selfXSS protection. You have to paste the URL, but it will delete the text "javascript:". You have to *manually type* that on the beginning of the URL and inside the btoa() call so it matches with the source again. Then just hit enter and enjoy the show. Also, you need to be on a website that doesn't block javascript: URLs via CSP, so I recommend running this on https://example.com/.
 Any additional info?: Some browsers enforce a file ending in the file picker, but the actual name (as you can see in the screenshot) is 4.
-Link to PoC video, screenshot, or console output, if any: https://i.imgur.com/4gmE09g.png
+Link to PoC video, screenshot, or console output, if any: https://i.imgur.com/YzqzkDt.png
 Link to writeup, if any: https://github.com/13x1/bggp (not written yet, but will do at some point)
-File contents (base64 encoded please): amF2YXNjcmlwdDpjbGFzcyB4e3N0YXRpY3tkb2N1bWVudC5ib2R5LmlubmVySFRNTD1gPGEgaWQ9YSBkb3dubG9hZD00IGhyZWY9ZGF0YTo7YmFzZTY0LCR7YnRvYSgnamF2YXNjcmlwdDonK3gpfT40YDthLmNsaWNrKCl9fQ==
+File contents (base64 encoded please): amF2YXNjcmlwdDpjbGFzcyB4e3N0YXRpY3tkb2N1bWVudC5ib2R5LmlubmVySFRNTD1gPGEgaWQ9YSBkb3dubG9hZD00PjRgO2EuY2xpY2soYS5ocmVmPSJkYXRhOixqYXZhc2NyaXB0OiIreCl9fQ==
 ---END BGGP4 ENTRY---
 ---BEGIN BGGP4 ENTRY---
 Name or handle: Lexi (13x1)
